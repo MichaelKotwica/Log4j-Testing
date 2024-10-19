@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
     <Properties>
-        <Property name="filename">./logs</Property>
+        <Property name="fileName">./logs</Property>
+        <Property name="logPattern">%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n</Property>
     </Properties>
     <Appenders>
         <!--Log to console-->
         <Console name="CONSOLE" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n"/>
+            <PatternLayout pattern="${logPattern}"/>
         </Console>
         <!--Log to logs/main.log-->
-        <File name ="MAIN" fileName="${filename}/main.log">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n"/>
+        <File name ="MAIN" fileName="${fileName}/main.log">
+            <PatternLayout pattern="${logPattern}"/>
         </File>
         <!--Log to logs/debug.log-->
-        <File name="DEBUG_LOG" fileName="${filename}/debug.log">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n"/>
+        <File name="DEBUG_LOG" fileName="${fileName}/debug.log">
+            <PatternLayout pattern="${logPattern}"/>
         </File>
     </Appenders>
     <Loggers>

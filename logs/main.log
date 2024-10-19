@@ -6,3 +6,15 @@
 15:33:15.798 [main] ERROR com.michael.github.Main - Error
 15:33:15.798 [main] DEBUG com.michael.github.Main - debug
 15:33:15.799 [main] FATAL com.michael.github.Main - fatal
+15:46:53.473 [main] INFO  com.michael.github.Main - info
+15:46:53.475 [main] ERROR com.michael.github.Main - Error
+15:46:53.475 [main] DEBUG com.michael.github.Main - debug
+15:46:53.475 [main] FATAL com.michael.github.Main - fatal
+15:47:37.069 [main] INFO  com.michael.github.Main - info
+15:47:37.071 [main] ERROR com.michael.github.Main - Error
+15:47:37.071 [main] DEBUG com.michael.github.Main - debug
+15:47:37.071 [main] FATAL com.michael.github.Main - fatal
+15:48:13.268 [main] INFO  com.michael.github.Main - info
+15:48:13.269 [main] ERROR com.michael.github.Main - Error
+15:48:13.270 [main] DEBUG com.michael.github.Main - debug
+15:48:13.270 [main] FATAL com.michael.github.Main - fatal
