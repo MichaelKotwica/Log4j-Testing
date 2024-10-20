@@ -10,7 +10,7 @@
             <PatternLayout pattern="${logPattern}"/>
         </Console>
         <!--Log to logs/main.log-->
-        <File name ="MAIN" fileName="${fileName}/main.log">
+        <File name="MAIN" fileName="${fileName}/main.log">
             <PatternLayout pattern="${logPattern}"/>
         </File>
         <!--Log to logs/debug.log-->
