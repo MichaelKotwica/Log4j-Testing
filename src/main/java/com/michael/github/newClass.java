@@ -17,4 +17,9 @@ public class newClass {
         logger.info("In printVar method of newClass");
         System.out.println(var);
     }
+
+    public void printVarPlusOne() {
+        logger.info("in printVarPlusOne method of newClass");
+        System.out.println(var+1);
+    }
 }
