@@ -24,3 +24,10 @@
 09:44:20.741 [main] DEBUG com.michael.github.Main - debug
 09:44:20.741 [main] FATAL com.michael.github.Main - fatal
 09:44:20.741 [main] INFO  com.michael.github.newClass - In printVar method of newClass
+16:40:31.504 [main] INFO  com.michael.github.newClass - In newClass Constructor
+16:40:31.506 [main] INFO  com.michael.github.Main - info
+16:40:31.506 [main] ERROR com.michael.github.Main - Error
+16:40:31.506 [main] DEBUG com.michael.github.Main - debug
+16:40:31.506 [main] FATAL com.michael.github.Main - fatal
+16:40:31.506 [main] INFO  com.michael.github.newClass - In printVar method of newClass
+16:40:31.506 [main] INFO  com.michael.github.newClass - in printVarPlusOne method of newClass
